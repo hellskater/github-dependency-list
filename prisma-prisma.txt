@@ -1,0 +1,10 @@
+/prisma, 33514
+/jitsu, 3545, 
+/promptable, 1773, 
+/linkwarden, 2091, 
+/ChatGPT-Admin-Web, 2469, 
+/chibisafe, 1223, 
+/lucia, 3021, 
+/bun, 43437, 
+/ossinsight, 1317, 
+/start-ui-web, 1180, 
