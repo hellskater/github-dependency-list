@@ -4,3 +4,4 @@ shadcn-ui/ui UGFja2FnZS0zNjY5NDk0Nzg2 run with 500
 kysely-org/kysely run with 500
 sequelize/sequelize run with 500
 typeorm/typeorm run with 500
+drizzle-team/drizzle-orm run with 500

@@ -105,10 +105,9 @@ func scrapeRepo(inputRepo InputRepo, wg *sync.WaitGroup) {
 
 func main() {
 	repos := []InputRepo{
-		{RepoName: "vercel/next.js", PackageID: "UGFja2FnZS0xNDIzMDMwOA%3D%3D", DependentsAfter: "Mjc1MjkzMjgyMTQ"},
-		{RepoName: "prisma/prisma", DependentsAfter: "MTczMjczOTI4NDk"},
-		{RepoName: "drizzle-team/drizzle-orm", DependentsAfter: "MjUyNDM3MjAzNzE"},
-		{RepoName: "WiseLibs/better-sqlite3", DependentsAfter: "MjkwNDY4NDcwMjU"},
+		{RepoName: "vercel/next.js", PackageID: "UGFja2FnZS0xNDIzMDMwOA%3D%3D", DependentsAfter: "MjI3MjUxNDU5OTI"},
+		{RepoName: "prisma/prisma", DependentsAfter: "NzkzNjY1NTI2"},
+		{RepoName: "aws/aws-sdk-js-v3", DependentsAfter: "MjY3ODg4NjYyMDI"},
 	}
 
 	var wg sync.WaitGroup
