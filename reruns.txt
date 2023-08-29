@@ -1,7 +1,7 @@
-TanStack/query run with 500
-ueberdosis/tiptap run with 500
-shadcn-ui/ui UGFja2FnZS0zNjY5NDk0Nzg2 run with 500
-kysely-org/kysely run with 500
-sequelize/sequelize run with 500
-typeorm/typeorm run with 500
-drizzle-team/drizzle-orm run with 500
+{RepoName: "TanStack/query"},
+{RepoName: "ueberdosis/tiptap"},
+{RepoName: "kysely-org/kysely"},
+{RepoName: "sequelize/sequelize"},
+{RepoName: "typeorm/typeorm"},
+{RepoName: "drizzle-team/drizzle-orm"},
+{RepoName: "shadcn-ui/ui", PackageId: "UGFja2FnZS0zNjY5NDk0Nzg2"},
