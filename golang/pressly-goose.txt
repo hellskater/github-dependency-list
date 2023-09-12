@@ -1,0 +1,10 @@
+/taiko-mono, 2051
+/sonr, 534
+/myapp, 611
+/embedded-postgres, 637
+/apitest, 669
+/onepanel, 681
+/kraken, 5619
+/micromdm, 1892
+/dendrite, 4878
+/navidrome, 7605

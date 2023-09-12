@@ -1,7 +1,0 @@
-{RepoName: "TanStack/query"},
-{RepoName: "ueberdosis/tiptap"},
-{RepoName: "kysely-org/kysely"},
-{RepoName: "sequelize/sequelize"},
-{RepoName: "typeorm/typeorm"},
-{RepoName: "drizzle-team/drizzle-orm"},
-{RepoName: "shadcn-ui/ui", PackageId: "UGFja2FnZS0zNjY5NDk0Nzg2"},

@@ -54,7 +54,7 @@ func scrapeRepo(inputRepo InputRepo, wg *sync.WaitGroup) {
 		}
 		baseURL += separator + "dependents_after=" + inputRepo.DependentsAfter
 	}
-	minStarsCnt := 1000
+	minStarsCnt := 500
 	var result []RepoInfo
 	nextExists := true
 
@@ -105,9 +105,7 @@ func scrapeRepo(inputRepo InputRepo, wg *sync.WaitGroup) {
 
 func main() {
 	repos := []InputRepo{
-		{RepoName: "vercel/next.js", PackageID: "UGFja2FnZS0xNDIzMDMwOA%3D%3D", DependentsAfter: "MjI3MjUxNDU5OTI"},
-		{RepoName: "prisma/prisma", DependentsAfter: "NzkzNjY1NTI2"},
-		{RepoName: "aws/aws-sdk-js-v3", DependentsAfter: "MjY3ODg4NjYyMDI"},
+		{RepoName: "DATA-DOG/go-sqlmock"},
 	}
 
 	var wg sync.WaitGroup
