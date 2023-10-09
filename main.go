@@ -105,7 +105,7 @@ func scrapeRepo(inputRepo InputRepo, wg *sync.WaitGroup) {
 
 func main() {
 	repos := []InputRepo{
-		{RepoName: "DATA-DOG/go-sqlmock"},
+		{RepoName: "charmbracelet/bubbles"},
 	}
 
 	var wg sync.WaitGroup
