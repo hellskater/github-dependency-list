@@ -54,7 +54,7 @@ func scrapeRepo(inputRepo InputRepo, wg *sync.WaitGroup) {
 		}
 		baseURL += separator + "dependents_after=" + inputRepo.DependentsAfter
 	}
-	minStarsCnt := 500
+	minStarsCnt := 20
 	var result []RepoInfo
 	nextExists := true
 
@@ -105,8 +105,7 @@ func scrapeRepo(inputRepo InputRepo, wg *sync.WaitGroup) {
 
 func main() {
 	repos := []InputRepo{
-		{RepoName: "fastify/fastify"},
-		{RepoName: "honojs/hono"},
+		{RepoName: "PlasmoHQ/plasmo"},
 	}
 
 	var wg sync.WaitGroup
