@@ -54,7 +54,7 @@ func scrapeRepo(inputRepo InputRepo, wg *sync.WaitGroup) {
 		}
 		baseURL += separator + "dependents_after=" + inputRepo.DependentsAfter
 	}
-	minStarsCnt := 20
+	minStarsCnt := 500
 	var result []RepoInfo
 	nextExists := true
 
@@ -105,7 +105,16 @@ func scrapeRepo(inputRepo InputRepo, wg *sync.WaitGroup) {
 
 func main() {
 	repos := []InputRepo{
-		{RepoName: "PlasmoHQ/plasmo"},
+		{RepoName: "django/django"},
+		{RepoName: "psf/requests"},
+		{RepoName: "scrapy/scrapy"},
+		{RepoName: "pydantic/pydantic"},
+		{RepoName: "tiangolo/fastapi"},
+		{RepoName: "sqlalchemy/sqlalchemy"},
+		{RepoName: "MongoEngine/mongoengine"},
+		{RepoName: "celery/celery"},
+		{RepoName: "encode/uvicorn"},
+		{RepoName: "pytest-dev/pytest"},
 	}
 
 	var wg sync.WaitGroup
