@@ -1,0 +1,11 @@
+/nixpkgs, 15929
+/jasmine, 3175
+/pulseshitter, 348
+/spark, 503
+/jenny, 1026
+/shuttle, 5629
+/aoede, 263
+/poise, 540
+/songbird, 369
+/tremor-runtime, 823
+/discord-compiler-bot, 419

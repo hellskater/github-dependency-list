@@ -26,7 +26,7 @@ type InputRepo struct {
 }
 
 func saveToFile(filename string, data string) {
-	f, err := os.OpenFile(filename+".txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	f, err := os.OpenFile(filename+".txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0o644)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -105,16 +105,9 @@ func scrapeRepo(inputRepo InputRepo, wg *sync.WaitGroup) {
 
 func main() {
 	repos := []InputRepo{
-		{RepoName: "django/django"},
-		{RepoName: "psf/requests"},
-		{RepoName: "scrapy/scrapy"},
-		{RepoName: "pydantic/pydantic"},
-		{RepoName: "tiangolo/fastapi"},
-		{RepoName: "sqlalchemy/sqlalchemy"},
-		{RepoName: "MongoEngine/mongoengine"},
-		{RepoName: "celery/celery"},
-		{RepoName: "encode/uvicorn"},
-		{RepoName: "pytest-dev/pytest"},
+		{RepoName: "sqlalchemy/sqlalchemy", DependentsAfter: "Mzc1NjI4OTQxOTg"},
+		{RepoName: "drizzle-team/drizzle-orm"},
+		{RepoName: "prisma/prisma"},
 	}
 
 	var wg sync.WaitGroup
